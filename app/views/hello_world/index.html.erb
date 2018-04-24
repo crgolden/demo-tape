@@ -1,0 +1,68 @@
+<!--Couldn't get styles to load from application.css-->
+<style>
+  html {
+    background-color: #292b2c!important;
+  }
+
+  body {
+    overflow-x: hidden;
+    background-color: #292b2c;
+    padding: 0 0 0 50px;
+    font-family: "SansSerif", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+  }
+
+  label {
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 150px;
+    text-align: left;
+    color: white;
+  }
+
+  input[type=submit] {
+    float: left;
+    clear: left;
+    margin-left: 150px;
+    color: white;
+    background-color: #27ae60;
+  }
+
+  input[type=text] {
+    display: inline-block;
+    float: left;
+  }
+
+  a {
+    color: white;
+  }
+
+  .title {
+    color: white;
+    font-size: x-large;
+  }
+
+  .success {
+    display: inline-block;
+    float: left;
+    clear: left;
+    text-align: left;
+    color: white;
+    font-size: x-large;
+  }
+
+  .message {
+    display: inline-block;
+    float: left;
+    clear: left;
+    text-align: left;
+    color: white;
+    font-size: large;
+  }
+</style>
+
+<%= react_component("HelloWorld", prerender: true) %>
